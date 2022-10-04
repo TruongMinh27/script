@@ -396,7 +396,7 @@ do
 					BackgroundTransparency = 1,
 					Size = UDim2.new(1, 0, 0, 20),
 					ZIndex = 2,
-					Font = Enum.Font.ArialSemibold,
+					Font = Enum.Font.a,
 					Text = title,
 					TextColor3 = themes.TextColor,
 					TextSize = 12,
@@ -545,7 +545,7 @@ do
 				Position = UDim2.new(0, 10, 0, 8),
 				Size = UDim2.new(1, -40, 0, 16),
 				ZIndex = 4,
-				Font = Enum.Font.ArialSemibold,
+				Font = Enum.Font.Arial,
 				TextColor3 = themes.TextColor,
 				TextSize = 14.000,
 				TextXAlignment = Enum.TextXAlignment.Left
@@ -838,7 +838,7 @@ do
 					Position = UDim2.new(0, 5, 0, 0),
 					Size = UDim2.new(1, -10, 1, 0),
 					ZIndex = 3,
-					Font = Enum.Font.ArialSemibold,
+					Font = Enum.Font.Arial,
 					Text = default or "",
 					TextColor3 = themes.TextColor,
 					TextSize = 11
@@ -945,7 +945,7 @@ do
 					ClipsDescendants = true,
 					Size = UDim2.new(1, 0, 1, 0),
 					ZIndex = 3,
-					Font = Enum.Font.ArialSemibold,
+					Font = Enum.Font.Arial,
 					Text = default and default.Name or "None",
 					TextColor3 = themes.TextColor,
 					TextSize = 11
@@ -1078,7 +1078,7 @@ do
 				Position = UDim2.new(0, 10, 0, 8),
 				Size = UDim2.new(1, -40, 0, 16),
 				ZIndex = 2,
-				Font = Enum.Font.ArialSemibold,
+				Font = Enum.Font.Arial,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 14,
@@ -1564,7 +1564,7 @@ do
 				Position = UDim2.new(1, -30, 0, 6),
 				Size = UDim2.new(0, 20, 0, 16),
 				ZIndex = 3,
-				Font = Enum.Font.ArialSemibold,
+				Font = Enum.Font.Arial,
 				Text = default or min,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -1820,7 +1820,7 @@ do
 		if toggle then
 			-- page button
 			button.Title.TextTransparency = 0
-			button.Title.Font = Enum.Font.ArialSemibold
+			button.Title.Font = Enum.Font.Arial
 			
 			if button:FindFirstChild("Icon") then
 				button.Icon.ImageTransparency = 0
