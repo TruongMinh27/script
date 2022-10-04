@@ -1,3 +1,4 @@
+-- venyx ui lib reuploaded by me
 -- init
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
@@ -109,8 +110,8 @@ do
 		self.keybinds = {}
 		self.ended = {}
 		
-		input.InputBegan:Connect(function(key)
-			if self.keybinds[key.KeyCode] then
+		input.InputBegan:Connect(function(key,proc)
+			if self.keybinds[key.KeyCode] and not proc then
 				for i, bind in pairs(self.keybinds[key.KeyCode]) do
 					bind()
 				end
@@ -338,8 +339,7 @@ do
 				ZIndex = 3,
 				Image = "rbxassetid://" .. tostring(icon),
 				ImageColor3 = themes.TextColor,
-				ImageTransparency = 0.64,
-				ScaleType = Enum.ScaleType.Fit
+				ImageTransparency = 0.64
 			}) or {}
 		})
 		
@@ -2167,4 +2167,5 @@ do
 		end
 	end
 end
+
 return library
