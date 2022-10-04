@@ -282,7 +282,7 @@ do
 						Position = UDim2.new(0, 12, 0, 19),
 						Size = UDim2.new(1, -46, 0, 16),
 						ZIndex = 5,
-						Font = Enum.Font.GothamBold,
+						Font = Enum.Font.RobotoBold,
 						Text = title,
 						TextColor3 = themes.TextColor,
 						TextSize = 14,
@@ -311,7 +311,7 @@ do
 			Size = UDim2.new(1, 0, 0, 26),
 			ZIndex = 3,
 			AutoButtonColor = false,
-			Font = Enum.Font.Gotham,
+			Font = Enum.Font.Roboto,
 			Text = "",
 			TextSize = 14
 		}, {
@@ -322,7 +322,7 @@ do
 				Position = UDim2.new(0, 40, 0.5, 0),
 				Size = UDim2.new(0, 76, 1, 0),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -396,7 +396,7 @@ do
 					BackgroundTransparency = 1,
 					Size = UDim2.new(1, 0, 0, 20),
 					ZIndex = 2,
-					Font = Enum.Font.GothamSemibold,
+					Font = Enum.Font.RobotoSemibold,
 					Text = title,
 					TextColor3 = themes.TextColor,
 					TextSize = 12,
@@ -545,7 +545,7 @@ do
 				Position = UDim2.new(0, 10, 0, 8),
 				Size = UDim2.new(1, -40, 0, 16),
 				ZIndex = 4,
-				Font = Enum.Font.GothamSemibold,
+				Font = Enum.Font.RobotoSemibold,
 				TextColor3 = themes.TextColor,
 				TextSize = 14.000,
 				TextXAlignment = Enum.TextXAlignment.Left
@@ -556,7 +556,7 @@ do
 				Position = UDim2.new(0, 10, 1, -24),
 				Size = UDim2.new(1, -40, 0, 16),
 				ZIndex = 4,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				TextColor3 = themes.TextColor,
 				TextSize = 12.000,
 				TextXAlignment = Enum.TextXAlignment.Left
@@ -592,7 +592,7 @@ do
 		notification.Text.Text = text
 		
 		local padding = 10
-		local textSize = game:GetService("TextService"):GetTextSize(text, 12, Enum.Font.Gotham, Vector2.new(math.huge, 16))
+		local textSize = game:GetService("TextService"):GetTextSize(text, 12, Enum.Font.Roboto, Vector2.new(math.huge, 16))
 		
 		notification.Position = library.lastNotification or UDim2.new(0, padding, 1, -(notification.AbsoluteSize.Y + padding))
 		notification.Size = UDim2.new(0, 0, 0, 60)
@@ -678,7 +678,7 @@ do
 				BackgroundTransparency = 1,
 				Size = UDim2.new(1, 0, 1, 0),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -740,7 +740,7 @@ do
 				Position = UDim2.new(0, 10, 0.5, 1),
 				Size = UDim2.new(0.5, 0, 1, 0),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -813,7 +813,7 @@ do
 				Position = UDim2.new(0, 10, 0.5, 1),
 				Size = UDim2.new(0.5, 0, 1, 0),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -838,7 +838,7 @@ do
 					Position = UDim2.new(0, 5, 0, 0),
 					Size = UDim2.new(1, -10, 1, 0),
 					ZIndex = 3,
-					Font = Enum.Font.GothamSemibold,
+					Font = Enum.Font.RobotoSemibold,
 					Text = default or "",
 					TextColor3 = themes.TextColor,
 					TextSize = 11
@@ -921,7 +921,7 @@ do
 				Position = UDim2.new(0, 10, 0.5, 1),
 				Size = UDim2.new(1, 0, 1, 0),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -945,7 +945,7 @@ do
 					ClipsDescendants = true,
 					Size = UDim2.new(1, 0, 1, 0),
 					ZIndex = 3,
-					Font = Enum.Font.GothamSemibold,
+					Font = Enum.Font.RobotoSemibold,
 					Text = default and default.Name or "None",
 					TextColor3 = themes.TextColor,
 					TextSize = 11
@@ -1026,7 +1026,7 @@ do
 				Position = UDim2.new(0, 10, 0.5, 1),
 				Size = UDim2.new(0.5, 0, 1, 0),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -1078,7 +1078,7 @@ do
 				Position = UDim2.new(0, 10, 0, 8),
 				Size = UDim2.new(1, -40, 0, 16),
 				ZIndex = 2,
-				Font = Enum.Font.GothamSemibold,
+				Font = Enum.Font.RobotoSemibold,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 14,
@@ -1199,7 +1199,7 @@ do
 							BackgroundTransparency = 1,
 							Size = UDim2.new(0.400000006, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.Roboto,
 							Text = "R:",
 							TextColor3 = themes.TextColor,
 							TextSize = 10.000
@@ -1210,7 +1210,7 @@ do
 							Position = UDim2.new(0.300000012, 0, 0, 0),
 							Size = UDim2.new(0.600000024, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.Roboto,
 							PlaceholderColor3 = themes.DarkContrast,
 							Text = "255",
 							TextColor3 = themes.TextColor,
@@ -1233,7 +1233,7 @@ do
 							BackgroundTransparency = 1,
 							ZIndex = 2,
 							Size = UDim2.new(0.400000006, 0, 1, 0),
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.Roboto,
 							Text = "G:",
 							TextColor3 = themes.TextColor,
 							TextSize = 10.000
@@ -1244,7 +1244,7 @@ do
 							Position = UDim2.new(0.300000012, 0, 0, 0),
 							Size = UDim2.new(0.600000024, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.Roboto,
 							Text = "255",
 							TextColor3 = themes.TextColor,
 							TextSize = 10.000
@@ -1266,7 +1266,7 @@ do
 							BackgroundTransparency = 1,
 							Size = UDim2.new(0.400000006, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.Roboto,
 							Text = "B:",
 							TextColor3 = themes.TextColor,
 							TextSize = 10.000
@@ -1277,7 +1277,7 @@ do
 							Position = UDim2.new(0.300000012, 0, 0, 0),
 							Size = UDim2.new(0.600000024, 0, 1, 0),
 							ZIndex = 2,
-							Font = Enum.Font.Gotham,
+							Font = Enum.Font.Roboto,
 							Text = "255",
 							TextColor3 = themes.TextColor,
 							TextSize = 10.000
@@ -1300,7 +1300,7 @@ do
 						BackgroundTransparency = 1,
 						Size = UDim2.new(1, 0, 1, 0),
 						ZIndex = 3,
-						Font = Enum.Font.Gotham,
+						Font = Enum.Font.Roboto,
 						Text = "Submit",
 						TextColor3 = themes.TextColor,
 						TextSize = 11.000
@@ -1550,7 +1550,7 @@ do
 				Position = UDim2.new(0, 10, 0, 6),
 				Size = UDim2.new(0.5, 0, 0, 16),
 				ZIndex = 3,
-				Font = Enum.Font.Gotham,
+				Font = Enum.Font.Roboto,
 				Text = title,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -1564,7 +1564,7 @@ do
 				Position = UDim2.new(1, -30, 0, 6),
 				Size = UDim2.new(0, 20, 0, 16),
 				ZIndex = 3,
-				Font = Enum.Font.GothamSemibold,
+				Font = Enum.Font.RobotoSemibold,
 				Text = default or min,
 				TextColor3 = themes.TextColor,
 				TextSize = 12,
@@ -1712,7 +1712,7 @@ do
 					Position = UDim2.new(0, 10, 0.5, 1),
 					Size = UDim2.new(1, -42, 1, 0),
 					ZIndex = 3,
-					Font = Enum.Font.Gotham,
+					Font = Enum.Font.Roboto,
 					Text = title,
 					TextColor3 = themes.TextColor,
 					TextSize = 12,
@@ -1820,7 +1820,7 @@ do
 		if toggle then
 			-- page button
 			button.Title.TextTransparency = 0
-			button.Title.Font = Enum.Font.GothamSemibold
+			button.Title.Font = Enum.Font.RobotoSemibold
 			
 			if button:FindFirstChild("Icon") then
 				button.Icon.ImageTransparency = 0
@@ -1882,7 +1882,7 @@ do
 			page:Resize(true)
 		else
 			-- page button
-			button.Title.Font = Enum.Font.Gotham
+			button.Title.Font = Enum.Font.Roboto
 			button.Title.TextTransparency = 0.65
 			
 			if button:FindFirstChild("Icon") then
@@ -2124,7 +2124,7 @@ do
 					Position = UDim2.new(0, 10, 0, 0),
 					Size = UDim2.new(1, -10, 1, 0),
 					ZIndex = 3,
-					Font = Enum.Font.Gotham,
+					Font = Enum.Font.Roboto,
 					Text = value,
 					TextColor3 = themes.TextColor,
 					TextSize = 12,
@@ -2167,6 +2167,4 @@ do
 		end
 	end
 end
-
-print("dino was here :\)")
 return library
