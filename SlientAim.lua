@@ -2,7 +2,7 @@ getgenv().Prediction =  (  .18  )   -- [ PREDICTION: Lower Prediction: Lower Pin
 
 getgenv().FOV =  (  350  )   -- [ FOV RADIUS: Increases Or Decreases FOV Radius ]
 
-getgenv().AimKey =  (  "c"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
+getgenv().AimKey =  (  "b"  )  -- [ TOGGLE KEY: Toggles Silent Aim On And Off ]
 
 getgenv().DontShootThesePeople = {  -- [ WHITELIST: List Of Who NOT To Shoot, edit like this. "Contain quotations with their name and then a semi-colon afterwards for each line" ; ]
 
