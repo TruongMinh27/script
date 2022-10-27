@@ -83,7 +83,7 @@ oldIndex = hookmetamethod(game, "__index", function(self, Index, Screw)
 	local cc = "hit"
 	local gboost = cc
 	if self == kalk and (Index:lower() == gboost) then
-		local Distance = 9e9
+		local Distance = 500
 		local Target = nil
 		local Players = game:GetService("Players")
 		local LocalPlayer = game:GetService("Players").LocalPlayer
