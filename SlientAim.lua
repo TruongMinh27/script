@@ -8,6 +8,8 @@ getgenv().DontShootThesePeople = {  -- [ WHITELIST: List Of Who NOT To Shoot, ed
 
 	"AimLockPsycho";
 	"JakeTheMiddleMan";
+	"nhokmao9510";
+	"cfvip789"
 
 }
 
