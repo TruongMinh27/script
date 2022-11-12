@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LemonHaze1/DEX/main/dexv3.lua"))()
